@@ -11,6 +11,20 @@
         text-rendering: optimizeLegibility;
     }
     
+    a:link,
+    a:active {
+        color: #e67e22;
+        text-decoration: none;
+        border-bottom: 1px solid #e67e22;
+        transition: border-bottom 0.2s, color 0.2s;
+    }
+    
+    a:hover,
+    a:visited {
+        color: #555555;
+        border-bottom: 1px solid transparent;
+    }
+    
     .clearfix {
         zoom: 1;
     }
@@ -118,18 +132,22 @@
         text-decoration: none;
         border-radius: 200px;
         color: #ffffff;
+    }
+    
+    .btn-full:link,
+    .btn-full:visited {
+        color: #ffffff;
+        background-color: #e67e22;
+        border: 1px solid #e67e22;
         transition: background-color 0.2s, border 0.2s, color 0.2s;
     }
     
-    .btn-full {
-        background-color: #e67e22;
-        border: 1px solid #e67e22;
-    }
-    
-    .btn-ghost {
+    .btn-ghost:link,
+    .btn-ghost:visited {
         color: #e67e22;
         border: 1px solid #e67e22;
         margin-left: 20px;
+        transition: background-color 0.2s, border 0.2s, color 0.2s;
     }
     
     .btn:hover,
@@ -260,7 +278,28 @@
         margin-right: 10px;
     }
     
+    .btn-app:link,
+    .btn-app:visited {
+        border: 0;
+    }
+    
+    .section-cities p {
+        line-height: 150%;
+    }
+    
+    .section-cities i {
+        display: inline-block;
+        width: 30px;
+        text-align: center;
+        color: #e67e22;
+        font-size: 120%;
+        line-height: 120%;
+        vertical-align: middle;
+        margin-top: -4px;
+    }
+    
     .city-pic {
-        height: 150px;
-        width: auto;
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
     }
