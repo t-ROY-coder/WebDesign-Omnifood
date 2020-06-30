@@ -24,7 +24,7 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 150px;
     width: auto;
     float: left;
     margin-top: 20px;
@@ -39,6 +39,7 @@ header {
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
+    word-spacing: 5px;
 }
 
 .main-nav li a:link,
