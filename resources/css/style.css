@@ -141,6 +141,10 @@ section {
     padding: 80px 0;
 }
 
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -161,4 +165,39 @@ section {
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
+}
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meals-showcase figure {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.meals-showcase figure img {
+    opacity: 0.6;
+    width: 100%;
+    height: auto;
+    transform: scale(1.2);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meals-showcase figure img:hover {
+    transform: scale(1.05);
+    opacity: 1;
 }
