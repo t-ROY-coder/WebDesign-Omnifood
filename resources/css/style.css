@@ -259,3 +259,8 @@
         width: auto;
         margin-right: 10px;
     }
+    
+    .city-pic {
+        height: 150px;
+        width: auto;
+    }
