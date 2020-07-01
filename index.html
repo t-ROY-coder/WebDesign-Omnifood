@@ -14,27 +14,27 @@
     <title>Omnifood</title>
 </head>
 
-<body>
+<body id="top">
     <header>
-        <nav class="sticky-nav">
+        <nav>
             <div class="row">
                 <img src="./resources/img/logo-white.png" alt="Omnifood Logo" class="logo">
-                <img src="./resources/img/logo.png" alt="Omnifood Logo" class="logo-black">
+                <a href="#top"><img src="./resources/img/logo.png" alt="Omnifood Logo" class="logo-black"></a>
                 <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#features">Food delivery</a></li>
+                    <li><a href="#steps">How it works</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#plans">Sign up</a></li>
                 </ul>
             </div>
         </nav>
         <div class="hero-text-box row">
             <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
-            <a class="btn btn-full" href="#">I’m hungry</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+            <a class="btn btn-full" href="#plans">I’m hungry</a>
+            <a class="btn btn-ghost" href="#features">Show me more</a>
         </div>
     </header>
-    <section class="section-features">
+    <section class="section-features js--section-features" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food</h2>
             <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
@@ -108,7 +108,7 @@
             </li>
         </ul>
     </section>
-    <section class="section-steps">
+    <section class="section-steps" id="steps">
         <div class="row">
             <h2>How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
@@ -135,7 +135,7 @@
             </div>
         </div>
     </section>
-    <section class="section-cities">
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
@@ -185,8 +185,8 @@
             </div>
         </div>
     </section>
-    <section class="section-plans">
-        <div class="row">
+    <section class="section-plans" id="plans">
+        <div class="row js--section-plans">
             <h2>Start eating healthy today</h2>
         </div>
         <div class="row">
@@ -342,11 +342,13 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="./resources/js/script.js"></script>
+    <script src="./vendors/js/jquery.waypoints.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+
+    <script src="./resources/js/script.js"></script>
 
 </body>
 
