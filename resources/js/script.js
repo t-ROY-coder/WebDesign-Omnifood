@@ -44,4 +44,21 @@ $(document).ready(function() {
             }
         });
 
+    /* Animation on scroll */
+    $('#features').waypoint(function(direction) {
+        $('.js--wp-1').addClass('animate__animated animate__fadeIn');
+    }, { offset: '25%' });
+
+    $('#steps').waypoint(function(direction) {
+        $('.js--wp-2').addClass('animate__animated animate__fadeInUpBig');
+    }, { offset: '25%' });
+
+    $('#cities').waypoint(function(direction) {
+        $('.js--wp-3').addClass('animate__animated animate__fadeIn');
+    }, { offset: '50%' });
+
+    $('#plans').waypoint(function(direction) {
+        $('.js--wp-4').addClass('animate__animated animate__pulse');
+    });
+
 });
