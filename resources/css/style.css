@@ -421,3 +421,81 @@
     *:focus {
         outline: none;
     }
+    
+    footer {
+        background-color: #333333;
+        color: #888888;
+        padding: 30px;
+    }
+    
+    footer .row:first-child {
+        vertical-align: middle;
+    }
+    
+    .footer-nav {
+        list-style: none;
+        float: left;
+    }
+    
+    .social-links {
+        list-style: none;
+        float: right;
+    }
+    
+    .footer-nav li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .social-links li {
+        display: inline-block;
+        margin-left: 20px;
+        font-size: 120%;
+        line-height: 120%;
+        vertical-align: middle;
+        margin-top: -4px;
+    }
+    
+    footer p {
+        text-align: center;
+        font-size: 80%;
+        margin-top: 30px;
+    }
+    
+    footer a:link,
+    footer a:visited {
+        text-decoration: none;
+        border: 0;
+        color: #888888;
+        transition: color 0.2s;
+    }
+    
+    footer a:hover,
+    footer a:active {
+        text-decoration: none;
+        border: 0;
+        color: #cccccc;
+    }
+    
+    .ion-social-facebook:hover {
+        color: #3b5998;
+    }
+    
+    footer .ion-social-twitter:hover {
+        color: #00aced;
+    }
+    
+    .ion-social-googleplus:hover {
+        color: #dd4b39;
+    }
+    
+    .ion-social-instagram:hover {
+        color: #517fa4;
+    }
+    
+    .ion-social-instagram,
+    .ion-social-facebook,
+    .ion-social-twitter,
+    .ion-social-googleplus {
+        transition: color 0.2s;
+    }
